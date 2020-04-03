@@ -20,7 +20,7 @@ int main() {
                     s[i] -= 26;
                 }
             }
-            else if (s[i] >= 97, s[i] <= 122){
+            else if (s[i] >= 97 && s[i] <= 122){
                 s[i] += k;
                 if (s[i] > 122){
                     s[i] -= 26;
@@ -38,7 +38,7 @@ int main() {
                     s[i] += 26;
                 }
             }
-            else if (s[i] >= 97, s[i] <= 122){
+            else if (s[i] >= 97 && s[i] <= 122){
                 s[i] -= k;
                 if (s[i] < 97){
                     s[i] += 26;
